@@ -1,0 +1,47 @@
+.container2{
+  display:flex;
+  height:400px;
+  position:relative;
+  width:500px;
+  align-items: center;
+}
+
+.current-image{
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width:100%;
+  height:100%;
+}
+.inactive{
+  display: none;
+}
+
+.arrow{
+  position:absolute;
+  color:white;
+  height:40px;
+  width:40px;
+  
+}
+
+.arrow-left{
+  left:10px;
+}
+
+.arrow-right{
+  right:10px; 
+}
+
+.current-indicator{
+   background-color: yellow;
+   height:20px;
+   width:20px;
+   border-radius:50%;
+   
+}
+.indicator{
+   background-color: grey;
+   height:20px;
+   width:20px;
+   border-radius:50%;
+}
